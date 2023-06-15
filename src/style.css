@@ -72,18 +72,18 @@ p {
     text-align: center;
   }
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section p {
+.content-container p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section {
+.content-container {
   padding: 0;
   text-align: center;
 }
-.about-section-content {
+.content-container container {
   margin: 30px;
 }
