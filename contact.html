@@ -22,25 +22,99 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+     <script
+      src="https://kit.fontawesome.com/36e0a5cd2a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>My Work</title>
   </head>
   <body>
+    <nav class="d-flex justify-content-between">
+      <a href="/">
+        <img
+          src="images/logogrande.png"
+          class="logo d-none d-md-block"
+          alt=""
+        />
+        <img
+          src="images/logosmall.jpg"
+          class="logo d-block d-md-none"
+          alt="SheCodes Logo"
+        />
+      </a>
+      <ul>
+        <li class="active">
+          <a href="/" title="Homepage"> Homepage </a>
+        </li>
+        <li>
+          <a href="/about.html" title="About Marta"> About me </a>
+        </li>
+        <li>
+          <a href="/mywork.html" title="Marta's Work"> My work </a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Marta"> Contact me </a>
+        </li>
+      </ul>
+    </nav>
     <div class="content-container container">
-      <div class="content">
-        <h1 class="mb-5">Let's get in touch!</h1>
-        <h3>Email</h3>
-        <p>
-          <a href="mailto:marta.lorenzanagarcia@gmail.com"
+      <div class="row">
+        <div class="col-md">
+          <div class="content">
+            <h1 class="mb-4">Hi! I'm Marta Lorenzana</h1>
+            <h2 class="mt-4">Frontend Developer, based in Spain.</h2>
+            <p>
+              For anyone who wants to start learning code, this workshop is very
+              interesting. You will be challenged with different exercises, and
+              everything is well explained, homework and deadlines are good for
+              keep focus
+            </p>
+            <a href="" class="btn btn-branding">See my project</a>
+          </div>
+        </div>
+        <div class="col-md">
+          <img src="images/MARTA.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+   <footer>
+        <div class="contact-box d-flex justify-content-between mb-5">
+          <div>
+            <h4>Work Inquery</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:marta.lorenzanagarcia@gmail.com" class="email-link"
             >marta.lorenzanagarcia@gmail.com</a
           >
-        </p>
-        <h3>LinkedIn</h3>
-        <a href="https://www.linkedin.com/mynetwork/" target="_blanck">
-          <p>Marta Lorenzana</p></a
-        >
-        <h3>Instagram</h3>
-        <p>@marta_lore97</p>
-      </div>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="http://instagram/marta_lore"
+            target="_blanck"
+            title="Instagram Profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/Martalore97"
+            target="_blanck"
+            title="GitHub Profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/marta-lorenzana-garc%C3%ADa/"
+            target="_blanck"
+            title="LinkedIn Profile"
+          >
+            <i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
