@@ -11,9 +11,12 @@ h1 {
   font-size: 96px;
   font-family: var(--heading-font-family);
 }
+h4 {
+  font-size: 26px;
+  font-family: var(--heading-font-family);
+}
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
@@ -129,4 +132,38 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+footer {
+  margin: 60px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 55%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
 }
